@@ -1,0 +1,12 @@
+{
+  "name": "menuorbit-saas",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm --workspace=apps/web run dev",
+    "build": "npm --workspace=apps/web run build"
+  }
+}
